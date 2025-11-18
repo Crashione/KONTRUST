@@ -4,7 +4,7 @@ body {
 }
 
 .container_bg {
-    padding: 41px 0 71px 0;
+    padding: 41px 0 71px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -164,6 +164,48 @@ body {
     justify-content: space-between;
     gap: 20px;
 }
+.hero_plan{
+    padding: 15px;
+    width: 140px;
+    height: 224px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 121%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    background-image: url('../img/plan.jpg');
+    box-sizing: border-box;
+}
+
+.hero_manage{
+    padding: 15px;
+    width: 140px;
+    height: 224px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 121%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    background-image: url('../img/manage.jpg');
+    box-sizing: border-box;
+}
+
+.hero_deliver{
+    padding: 15px;
+    width: 140px;
+    height: 224px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 121%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    background-image: url('../img/deliver.jpg');
+    box-sizing: border-box;
+}
+
+.advantages{
+    margin-bottom: 115px;
+}
 
 .advantages_row {
     display: flex;
@@ -240,8 +282,11 @@ body {
     letter-spacing: 0.02em;
     color: #48555b;
 }
-
-.btn_adv {
+a{
+    all: unset;
+    cursor: pointer;
+}
+.btn {
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 0.04em;
@@ -255,7 +300,69 @@ body {
     transition: 0.3s;
 }
 
-.btn_adv:hover {
+.btn:hover {
     background-color: white;
     color: #00a4e5;
 }
+
+.bg_touch {
+    position: absolute;
+    width: 100%;
+    height: 499px;
+    z-index: 1;
+}
+
+.container_bg_touch {
+    padding: 120px 0 241px;
+    height: 499px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+.tittle_touch{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #48555b;
+}
+
+.signup{
+    background-color: #171819;
+    z-index: 100;
+}
+.container_sign{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.sign_tittle{
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+}
+.custom-input{
+    margin-right: -5px;
+    width: 250px;
+    height: 38px;
+    border: none;
+    padding-left: 16px;
+    text-align:left;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+
