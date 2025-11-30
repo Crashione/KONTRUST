@@ -354,7 +354,7 @@ a{
 .sign{
     display: flex;
 }
-.custom-input{
+.custom_input{
     padding: 0;
     width: 250px;
     height: 40px;
@@ -454,4 +454,142 @@ h3{
     padding: 22px 0;
     text-align: center;
     background: #171819;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+        padding: 0 20px;
+    }
+    
+    .header_row {
+        gap: 200px;
+    }
+    
+    .hero_row {
+        gap: 40px;
+    }
+    
+    .hero_content {
+        max-width: 350px;
+    }
+    
+    .hero_image {
+        max-width: 400px;
+    }
+    
+    .adv_tittle {
+        gap: 80px;
+    }
+    
+    .center_adv {
+        width: 350px;
+    }
+    
+    .advantages_item_container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .hd {
+        font-size: 40px;
+    }
+    
+    .tittle_d {
+        font-size: 14px;
+    }
+    
+    .scroll {
+        font-size: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .header_row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .menu {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .container_hero {
+        margin-top: 30px;
+    }
+    
+    .hero_row {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .hero_content {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .hero_image {
+        max-width: 100%;
+        flex-direction: column;
+    }
+    
+    .advantages_top {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .adv_tittle {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .center_adv {
+        width: 100%;
+    }
+    
+    .advantages_item_container {
+        width: 100%;
+    }
+    
+    .advantages_row {
+        margin: -10px;
+    }
+    
+    .advantages_item {
+        padding: 25px 15px;
+    }
+    
+    .container_advantages {
+        margin-top: 60px;
+    }
+
+    .container_sign {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .sign{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container_footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center
+    }
+    .footer_info {
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 85%;
+    }
 }
