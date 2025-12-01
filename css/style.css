@@ -164,7 +164,8 @@ body {
     justify-content: space-between;
     gap: 20px;
 }
-.hero_plan{
+
+.hero_plan {
     padding: 15px;
     width: 140px;
     height: 224px;
@@ -177,7 +178,7 @@ body {
     box-sizing: border-box;
 }
 
-.hero_manage{
+.hero_manage {
     padding: 15px;
     width: 140px;
     height: 224px;
@@ -190,7 +191,7 @@ body {
     box-sizing: border-box;
 }
 
-.hero_deliver{
+.hero_deliver {
     padding: 15px;
     width: 140px;
     height: 224px;
@@ -203,7 +204,7 @@ body {
     box-sizing: border-box;
 }
 
-.advantages{
+.advantages {
     margin-bottom: 115px;
 }
 
@@ -282,10 +283,12 @@ body {
     letter-spacing: 0.02em;
     color: #48555b;
 }
-a{
+
+a {
     all: unset;
     cursor: pointer;
 }
+
 .btn {
     font-weight: 700;
     font-size: 13px;
@@ -325,7 +328,7 @@ a{
     box-sizing: border-box;
 }
 
-.tittle_touch{
+.tittle_touch {
     font-weight: 700;
     font-size: 30px;
     line-height: 120%;
@@ -334,48 +337,55 @@ a{
     color: #48555b;
 }
 
-.signup{
+.signup {
     background-color: #171819;
 }
-.container_sign{
+
+.container_sign {
     min-height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 70px;
 }
-.sign_tittle{
+
+.sign_tittle {
     font-weight: 700;
     font-size: 22px;
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
 }
-.sign{
+
+.sign {
     display: flex;
 }
-.custom_input{
+
+.custom_input {
     padding: 0;
     width: 250px;
     height: 40px;
     border: none;
     padding-left: 16px;
-    text-align:left;
+    text-align: left;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.01em;
     color: #48555b;
 }
-footer{
+
+footer {
     background: #141a20;
     padding: 42px 0;
 }
-.container_footer{
+
+.container_footer {
     display: flex;
     justify-content: space-between;
 }
-p{
+
+p {
     margin: 0;
     padding: 0;
     font-weight: 400;
@@ -384,31 +394,36 @@ p{
     letter-spacing: 0.08em;
     color: #fff;
 }
-h3{
+
+h3 {
     margin: 0;
     font-weight: 400;
     font-size: 11px;
     letter-spacing: 0.08em;
     color: #fff;
 }
-.footer_info{
+
+.footer_info {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items:start;
+    align-items: start;
     width: 250px;
 }
-.footer_links{
+
+.footer_links {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.footer_links_link{
+
+.footer_links_link {
     width: 262px;
     display: flex;
     justify-content: space-between;
 }
-.foot_ul{
+
+.foot_ul {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -418,15 +433,18 @@ h3{
     letter-spacing: 0.08em;
     color: #fff;
 }
-.footer_contact{
+
+.footer_contact {
     width: 141px;
 }
-.footer_contact{
+
+.footer_contact {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.foot_contact{
+
+.foot_contact {
     padding: 0;
     margin: 0;
     display: flex;
@@ -439,18 +457,22 @@ h3{
     letter-spacing: 0.08em;
     color: #fff;
 }
-.footer_social{
+
+.footer_social {
     margin-top: 30px;
     display: flex;
     gap: 24px;
 }
-.foot:hover{
+
+.foot:hover {
     color: #00a4e5;
 }
-.contact:hover{
+
+.contact:hover {
     color: #00a4e5;
 }
-.copyright{
+
+.copyright {
     padding: 22px 0;
     text-align: center;
     background: #171819;
@@ -461,31 +483,31 @@ h3{
         max-width: 90%;
         padding: 0 20px;
     }
-    
+
     .header_row {
         gap: 200px;
     }
-    
+
     .hero_row {
         gap: 40px;
     }
-    
+
     .hero_content {
         max-width: 350px;
     }
-    
+
     .hero_image {
         max-width: 400px;
     }
-    
+
     .adv_tittle {
         gap: 80px;
     }
-    
+
     .center_adv {
         width: 350px;
     }
-    
+
     .advantages_item_container {
         width: 50%;
     }
@@ -495,74 +517,74 @@ h3{
     .hd {
         font-size: 40px;
     }
-    
+
     .tittle_d {
         font-size: 14px;
     }
-    
+
     .scroll {
         font-size: 10px;
         margin-bottom: 40px;
     }
-    
+
     .header_row {
         flex-direction: column;
         gap: 20px;
     }
-    
+
     .menu {
         gap: 20px;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     .container_hero {
         margin-top: 30px;
     }
-    
+
     .hero_row {
         flex-direction: column;
         gap: 30px;
     }
-    
+
     .hero_content {
         max-width: 100%;
         text-align: center;
     }
-    
+
     .hero_image {
         max-width: 100%;
         flex-direction: column;
     }
-    
+
     .advantages_top {
         flex-direction: column;
         gap: 20px;
         text-align: center;
         align-items: center;
     }
-    
+
     .adv_tittle {
         flex-direction: column;
         gap: 20px;
     }
-    
+
     .center_adv {
         width: 100%;
     }
-    
+
     .advantages_item_container {
         width: 100%;
     }
-    
+
     .advantages_row {
         margin: -10px;
     }
-    
+
     .advantages_item {
         padding: 25px 15px;
     }
-    
+
     .container_advantages {
         margin-top: 60px;
     }
@@ -572,17 +594,19 @@ h3{
         gap: 20px;
         padding: 20px 0;
     }
-    .sign{
+
+    .sign {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .container_footer {
         flex-direction: column;
         align-items: center;
         gap: 20px;
         text-align: center
     }
+
     .footer_info {
         align-items: center;
     }
